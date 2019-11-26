@@ -22,7 +22,7 @@ default_img:
 
 # Profile settings
 social:
-  twitter: 
+  linkedin: https://www.linkedin.com/in/sarah-brusell
 
 # Build settings
 exclude: ["node_modules", "gulpfile.js", "assets/js/app.js", "README.md", "Gemfile", "Gemfile.lock"]
