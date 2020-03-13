@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 4em;
+  height: 136px;
   width: 100%;
   padding-right: 1em;
   padding-left: 1em;
@@ -24,12 +24,14 @@
     padding-left: 2em;
   }
 
-  &__img {
+  .logo {
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: 10px;
+    width: 300px;
 
-    img {
-      height: 3em;
-      width: 3em;
-    }
+    filter: drop-shadow(4px 4px 4px 0px white) drop-shadow(-4px -4px 4px 0px white);
+
   }
 
   &__list {
@@ -66,6 +68,15 @@
 
     position: fixed;
 
+    height: 4em;
+
     background-color: $color-white;
+
+    .logo {
+      margin-top: 10%;
+      margin-bottom: 10%;
+      height: 80%;
+      width: unset;
+    }
   }
 }
